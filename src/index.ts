@@ -1,5 +1,7 @@
 import express from 'express';
 
+import './migrations/connect';
+
 import routes from './routes';
 
 const app = express();
